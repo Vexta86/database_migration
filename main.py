@@ -154,7 +154,6 @@ def split_by_dot(file_path, output_dir):
 
         mapped_lines = list(map(process_line, lines))
         check_same_attributes(mapped_lines)
-
         # write_to_json(mapped_lines, output_dir, name)
         save_to_excel(mapped_lines, output_dir, name)
 
